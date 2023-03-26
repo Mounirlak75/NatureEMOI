@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@600&family=Kenia&family=Montserrat&display=swap");
+/****************** HEADER *****************/
+html {
+  --res: calc(0.01 * 10vmin);
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  background: url(images/bg.jpg) no-repeat;
+  height: 100%;
+  width: 100%;
+  padding: 200px 100px;
+  background-size: cover;
+}
+img {
+  width: 200px;
+  height: 100px;
+}
+h1 {
+  font-family: "Abril Fatface", sans-serif;
+  font-size: 8em;
+  color: white;
+  width: 1100px;
+  font-size: clamp(70px, 10vw, 120px);
+}
+/**************** NAV ***********************/
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  display: flex;
+  height: 100px;
+  width: 100%;
+  align-items: center;
+  margin: 30px 30px;
+}
+a {
+  margin: 0px 30px;
+  background-color: #ffffff9c;
+  border-radius: 9px;
+  padding: 5px;
+  color: #3a3e36;
+  text-decoration: none;
+}
+/************************** SECTION 1 *****************/
+section {
+  margin: 50px;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.5em;
+  list-style: none;
+  text-align: center;
+}
+li {
+  font-family: "MontSerrat", sans-serif;
+  font-size: 1em;
+  color: black;
+  width: 300px;
+}
+h2 {
+  font-size: 6em;
+  font-family: "Abril Fatface";
+}
+
+div {
+  color: #add981;
+}
+/**************** SECTION 2 *******************/
+
+#card1 {
+  background-image: url(./images/nos_meilleures_ventes/1.jpg);
+}
+#card2 {
+  background-image: url(./images/nos_meilleures_ventes/2.jpg);
+}
+#card3 {
+  background-image: url(./images/nos_meilleures_ventes/3.jpg);
+}
+#card4 {
+  background-image: url(./images/nos_meilleures_ventes/4.jpg);
+}
+.sec2 .container .card {
+  width: 250px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 50px;
+}
+
+button {
+  position: relative;
+  transform: translate(140px, -30px);
+  border-radius: 10px;
+  padding: 3px;
+  background-color: #add981;
+  border-color: #add981;
+  color: white;
+}
+.sec2 .container .card .intro p {
+  margin-left: 15px;
+  color: black;
+}
+.sec2 .container .card .intro {
+  background-color: #ffffff9c;
+}
+.trait {
+  width: 59px;
+  height: 10px;
+  background-color: #add981;
+}
+/***************SECTION 3 ************/
+h3 {
+  font-size: 6em;
+  font-family: "Abril FatFace", sans-serif;
+}
+#c1 {
+  background-image: url(./images/nos_plantes/1.jpg);
+  height: 500px;
+  width: 350px;
+}
+#c2 {
+  background-image: url(./images/nos_plantes/2.jpg);
+  height: 250px;
+  width: 350px;
+}
+#c3 {
+  background-image: url(./images/nos_plantes/3.jpg);
+  height: 250px;
+  width: 350px;
+}
+
+.sec3 .container1 .card {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.container1 {
+  display: flex;
+  justify-content: center;
+}
+.sec3 .container1 .card .intro1 p {
+  margin-left: 15px;
+  color: black;
+}
+.sec3 .container1 .card .intro1 {
+  background-color: #ffffff9c;
+}
+.btn {
+  height: 0;
+}
+.trait1 {
+  width: 59px;
+  height: 10px;
+  background-color: #add981;
+}
+/******************* SECTION 4 *****************/
+#c4 {
+  background-image: url(./images/nos_plantes/4.jpg);
+  height: 500px;
+  width: 350px;
+}
+#c5 {
+  background-image: url(./images/nos_plantes/5.jpg);
+  height: 500px;
+  width: 350px;
+}
+#c6 {
+  background-image: url(./images/nos_plantes/6.jpg);
+  height: 500px;
+  width: 350px;
+}
+.sec4 .container2 .card {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.container2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.sec4 .container2 .card .intro2 p {
+  margin-left: 15px;
+  color: black;
+}
+.sec4 .container2 .card .intro2 {
+  background-color: #ffffff9c;
+}
+.btn {
+  height: 0;
+}
+/********************** FOOTER **********************/
+h4 {
+  text-align: center;
+}
+.container3 {
+  height: 500px;
+}
+footer {
+  background-color: #add981;
+}
+iframe {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
